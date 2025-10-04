@@ -1,0 +1,2 @@
+- name: Authenticate Salesforce Org
+  run: echo ${{ secrets.SF_AUTH_URL }} | sfdx auth:sfdxurl:store -a targetOrg
